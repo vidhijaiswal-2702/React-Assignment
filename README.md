@@ -5,7 +5,7 @@ This React project contains multiple assignment components (Assignment 1 and Ass
 
 ## 📁 Project Structure
 
-``bash
+```bash
 src/
 ├── App1.jsx # Props and nested components
 ├── App2.jsx # useState and event handling
@@ -13,17 +13,17 @@ src/
 ├── components1/
 │ ├── UserCard.jsx
   ├── UserDetails.jsx
-├── components1/ 
+├── components2/ 
 │ ├── Counter.jsx
 │ ├── LiveInput.jsx
 │ └── ToggleParagraph.jsx
 
-``
+```
 
 # Switching Between Assignments
 To view Assignment 1 or Assignment 2, manually update the import in main.jsx:
 
-``bash
+```bash
 // main.jsx
 import React from 'react';
 import ReactDOM from 'react-dom/client';
@@ -39,10 +39,9 @@ createRoot(document.getElementById('root')).render(
     <App />
   </React.StrictMode>
 );
-``
+```
 # What Each Assignment Covers
 Assignment 1: Props and Nested Functional Components (User Profile Card)
 
 Assignment 2: useState, Event Handling, Conditional Rendering (Counter, Live Input, Toggle)
 
---
