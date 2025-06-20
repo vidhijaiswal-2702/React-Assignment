@@ -1,0 +1,19 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.app {
+  background-color: #f0f0f0;
+  border: 2px solid black;
+  padding: 1rem;
+  border-radius: 10px;
+}
+
+.app-h1 {
+  font-size: 2rem;
+  color: #b84343;
+  margin-bottom: 1rem;
+}
